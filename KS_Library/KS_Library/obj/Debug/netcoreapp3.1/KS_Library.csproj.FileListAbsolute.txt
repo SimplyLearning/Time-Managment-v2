@@ -1,0 +1,19 @@
+C:\Users\Windowspc\source\repos\KS_Library\KS_Library\bin\Debug\netcoreapp3.1\KS_Library.deps.json
+C:\Users\Windowspc\source\repos\KS_Library\KS_Library\bin\Debug\netcoreapp3.1\KS_Library.dll
+C:\Users\Windowspc\source\repos\KS_Library\KS_Library\bin\Debug\netcoreapp3.1\KS_Library.pdb
+C:\Users\Windowspc\source\repos\KS_Library\KS_Library\obj\Debug\netcoreapp3.1\KS_Library.csproj.AssemblyReference.cache
+C:\Users\Windowspc\source\repos\KS_Library\KS_Library\obj\Debug\netcoreapp3.1\KS_Library.AssemblyInfoInputs.cache
+C:\Users\Windowspc\source\repos\KS_Library\KS_Library\obj\Debug\netcoreapp3.1\KS_Library.AssemblyInfo.cs
+C:\Users\Windowspc\source\repos\KS_Library\KS_Library\obj\Debug\netcoreapp3.1\KS_Library.csproj.CoreCompileInputs.cache
+C:\Users\Windowspc\source\repos\KS_Library\KS_Library\obj\Debug\netcoreapp3.1\KS_Library.dll
+C:\Users\Windowspc\source\repos\KS_Library\KS_Library\obj\Debug\netcoreapp3.1\KS_Library.pdb
+C:\Users\DISD3\Desktop\new PROG\KS_Library\KS_Library\bin\Debug\netcoreapp3.1\KS_Library.deps.json
+C:\Users\DISD3\Desktop\new PROG\KS_Library\KS_Library\bin\Debug\netcoreapp3.1\KS_Library.dll
+C:\Users\DISD3\Desktop\new PROG\KS_Library\KS_Library\bin\Debug\netcoreapp3.1\KS_Library.pdb
+C:\Users\DISD3\Desktop\new PROG\KS_Library\KS_Library\obj\Debug\netcoreapp3.1\KS_Library.csproj.AssemblyReference.cache
+C:\Users\DISD3\Desktop\new PROG\KS_Library\KS_Library\obj\Debug\netcoreapp3.1\KS_Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DISD3\Desktop\new PROG\KS_Library\KS_Library\obj\Debug\netcoreapp3.1\KS_Library.AssemblyInfoInputs.cache
+C:\Users\DISD3\Desktop\new PROG\KS_Library\KS_Library\obj\Debug\netcoreapp3.1\KS_Library.AssemblyInfo.cs
+C:\Users\DISD3\Desktop\new PROG\KS_Library\KS_Library\obj\Debug\netcoreapp3.1\KS_Library.csproj.CoreCompileInputs.cache
+C:\Users\DISD3\Desktop\new PROG\KS_Library\KS_Library\obj\Debug\netcoreapp3.1\KS_Library.dll
+C:\Users\DISD3\Desktop\new PROG\KS_Library\KS_Library\obj\Debug\netcoreapp3.1\KS_Library.pdb

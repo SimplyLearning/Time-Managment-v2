@@ -1,0 +1,87 @@
+﻿<Page x:Class="ST10090436KSimpsonPart2PROG.HoursSpent"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ST10090436KSimpsonPart2PROG"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="HoursSpent">
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.504,1.5" StartPoint="0.504,0.03">
+                <GradientStop Color="DarkBlue" Offset="0"/>
+                <GradientStop Color="#FFFFFFFF" Offset="0.567"/>
+                <GradientStop Color="DarkBlue" Offset="0.11"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <!-- Creating columns (Troelsen & Japikse, 2021) -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="90" />
+            <ColumnDefinition Width="583" />
+            <ColumnDefinition Width="67" />
+        </Grid.ColumnDefinitions>
+        <!-- Creating rows (Troelsen & Japikse, 2021) -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>
+
+        <!-- text block greeting (Troelsen & Japikse, 2021) -->
+        <TextBlock Grid.Column="1" Grid.Row="1" FontFamily="Segoe UI Light" FontSize="25" Margin="98,21,98,10">
+           Provide All The Necessary Information
+        </TextBlock>
+
+        <!-- Creating the module code box (Troelsen & Japikse, 2021) -->
+        <TextBlock Grid.Column="1" Grid.Row="2" FontFamily="Segoe UI Light"  Margin="20,10,119,10">
+            Enter Module Code:
+        </TextBlock>
+        <TextBox Name="txt_code" Grid.Column="1" Grid.Row="2"  FontFamily="Segoe UI Light"  Margin="200,5,228,5" MaxLength="19" >
+
+        </TextBox>
+
+        <!-- Creating the module name box (Troelsen & Japikse, 2021) -->
+        <TextBlock Grid.Column="1" Grid.Row="3" FontFamily="Segoe UI Light"  Margin="20,10,119,10">
+            Enter Hours Studied:
+        </TextBlock>
+        <TextBox Name="txt_hours" Grid.Column="1" Grid.Row="3"  FontFamily="Segoe UI Light"  Margin="200,5,228,5" MaxLength="19" >
+
+        </TextBox>
+
+
+
+
+        <!-- Creating the start date box  (Troelsen & Japikse, 2021) -->
+        <TextBlock Grid.Column="1" Grid.Row="4" FontFamily="Segoe UI Light"  Margin="20,10,119,10">
+            Enter current date:
+        </TextBlock>
+        <DatePicker Grid.Column="1" Name="CurrenttDate"  HorizontalAlignment="Left" Grid.Row="4" VerticalAlignment="Center" Width="150" Height="29" Margin="200,0,0,0"/>
+
+
+
+        <!-- Creating button (Troelsen & Japikse, 2021) -->
+
+        <Button Grid.Column="1" Grid.Row="5"  Margin="255,0,0,0" Content="Display" HorizontalAlignment="Left" VerticalAlignment="Center" Width="100" Click="Button_Click" Height="26"/>
+        <Button Name="Close" Grid.Column="1" Grid.Row="12" Margin="450,120,0,0" Content="Exit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Click="btn_exit" Height="25"/>
+
+        <ListBox Name="remainingHours" Grid.Row="12" Grid.Column="1" Margin="0,7,228,7" FontSize="12" BorderThickness="0" Opacity="0"/>
+
+        <!-- Creating a frame (Troelsen & Japikse, 2021) -->
+        <Frame x:Name="Main" Margin="5,6,-55,-12"
+               Grid.RowSpan="14"
+               NavigationUIVisibility="Hidden" Grid.ColumnSpan="3"/>
+    </Grid>
+</Page>

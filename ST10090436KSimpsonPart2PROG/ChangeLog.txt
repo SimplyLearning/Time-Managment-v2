@@ -1,0 +1,7 @@
+﻿
+		*** Feeback Implemented. ***
+
+
+After getting feedback, I saw my mistakes with the UML Diagram which has been fixed this time for the Part 2. 
+Adding the presiting of data by storing all data into a sql document that is stored locally on VS. With the 
+removing of pevious ways to hold data and retrieve data 
